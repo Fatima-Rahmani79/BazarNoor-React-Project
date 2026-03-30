@@ -26,7 +26,7 @@ const productSlice = createSlice({
         setSort(state, action) {
             state.sort = action.payload;
         },
-    }و
+    },
 
     extraReducers: (builder) => {
         builder.addCase(fetchProducts.pending, (state)=> {
